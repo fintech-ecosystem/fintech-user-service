@@ -1,0 +1,11 @@
+package kuan.fintech.fintech_user_service.domain.error;
+
+public enum UserErrorCode {
+    USER_ALREADY_EXISTS,
+    USER_NOT_FOUND,
+    USER_INVALID_PHONE_NUMBER,
+    USER_INVALID_DATE_OF_BIRTH,
+    USER_STATUS_REASON_REQUIRED,
+    USER_INVALID_STATUS_TRANSITION,
+    USER_INVALID_REQUEST
+}
